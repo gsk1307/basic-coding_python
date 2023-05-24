@@ -1,0 +1,14 @@
+#string is palindrome or not
+a=input("enter any string :")
+if a==a[::-1]:    #here we used index based
+    print(f'{a} is palindrome')  #we used new format
+else:
+    print("not a palindrome")
+
+
+#OUTPUT ::
+enter any string :madam
+madam is palindrome
+
+enter any string :sai
+not a palindrome
