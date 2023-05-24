@@ -1,0 +1,22 @@
+#arthmetic operation
+a=int(input("enter num1 :")) #we are giving integer value so we give int,if decimal value we give float
+b=int(input("enter num2 :"))
+c=a+b # add
+d=a-b #sub
+e=a*b #multi
+f=a%b #moduler, it gives the remainder value
+g=a//b #floor division, it gives round figure value
+h=a**b #power
+i=a/b #division
+print(c,d,e,f,g,h,i, sep="\n")
+
+#output :
+enter num1 :7
+enter num2 :2
+9
+5
+14
+1
+3
+49
+3.5
